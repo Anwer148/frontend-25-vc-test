@@ -35,9 +35,6 @@ nav {
   height: 200px;
 }
 
-.imgdiv{
-  justify-self: center;
-}
 .imgdiv {
   display: flex;
   flex-direction: row;
@@ -45,11 +42,12 @@ nav {
   align-items: center;
 }
 
-
 footer{
   justify-items: center;
   align-items: center;
+  background-color: black;
 }
+
 @media screen and (max-width:1024px)  {
 .imgdiv{
   width: 20%;
